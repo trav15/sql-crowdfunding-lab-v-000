@@ -10,5 +10,12 @@ end_date TEXT
 CREATE TABLE user (
 id INTEGER PRIMARY KEY,
 name TEXT,
-age INTEGER, 
+age INTEGER
+);
+
+CREATE TABLE pledges (
+id INTEGER PRIMARY KEY,
+amount NUMERIC,
+user_id INTEGER,
+project_id INTEGER
 );
