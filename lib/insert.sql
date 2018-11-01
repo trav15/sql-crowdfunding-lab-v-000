@@ -1,4 +1,4 @@
-INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES
+INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES (1, 'Learn.co', 'website',)
 
 
 INSERT INTO users (id, name, age) VALUES
